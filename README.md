@@ -1,14 +1,14 @@
 # reactives
 
-QuantLET reactives. A framework for on-demand, real-time fast and simple computations.
+QuantLET reactives. A framework for on-demand, real-time computations.
 
 Copyright (C) 2006 Jorge M. Faleiro Jr.
 
-The very-very simple, very-very fast "infinite spreadsheets". State of reactive nodes are backed by a DHT (tapestry) allowing your reactive bindings to scale literally forever.
+The really-really simple, really-really fast "infinite spreadsheets". State of reactive nodes are backed by a DHT (tapestry) allowing your reactive models to scale literally forever.
 
-The static, explicit, pull-based reactive framework if you are stuck in Java and still partying like it is 2006.
+The static, explicit, pull-based reactive framework of choice if you are stuck in Java and still partying like it is 2006.
 
-# Installation
+## Installation
 
 ```
 git clone https://github.com/jfaleiro/reactives.git
@@ -16,7 +16,7 @@ cd reactives
 gradle check
 ```
 
-# Use
+## Use
 
 You can go to one of the nodes in the network and generate a few reactives
 
@@ -50,7 +50,7 @@ c = 6
 d = 7
 ```
 
-# For more
+## For more
 
 Check unit tests for examples of use
 
