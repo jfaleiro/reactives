@@ -1,0 +1,10 @@
+dependencies {
+	compile project(':reactives-core')
+	
+	// test dependencies, pain in gradle
+	testCompile project(path: ':reactives-core', configuration: 'tests')
+	
+	dependencies {
+		compile 'tapestry:tapestry-ehcache:0.0.1'
+	}
+}
