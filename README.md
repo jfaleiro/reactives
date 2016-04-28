@@ -27,10 +27,15 @@ R<Integer> b = reactive("b", 2);
 R<Integer> c = reactive("c", () -> a.eval + b.eval()); // C = A + B
 
 print(c.eval());
+```
+```
 3
-
+```
+```java
 a.set(4);
 print(c.eval());
+```
+```
 6
 ```
 
@@ -42,8 +47,9 @@ c.onReaction((e) -> print("c = " + e.eval());
 
 R<Integer> d = reactive(() -> e.eval() + 1); // unlabeled = C + 1
 d.onReaction((e) -> print("d = " + e.eval());
-
-// will yield...
+```
+Will yield...
+```
 c = 3
 d = 4
 c = 6
